@@ -3,6 +3,10 @@ html {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+}
+
 .container {
     width: 960px;
     margin-right: auto;
@@ -12,14 +16,24 @@ html {
     font-weight: bold;
 }
 
+section:not(:first-child){
+    margin-top: 30px;
+}
+
 h1 {
     font-size: 1.5em;
     text-align: center;
     letter-spacing: 0.5em;
 }
 
+
 h2 {
     font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.0em;
+    text-decoration: underline;
 }
 
 p {
@@ -33,6 +47,7 @@ ul {
 
 li {
     list-style: none;
+    margin-bottom: 3px;
 }
 
 li.item {
