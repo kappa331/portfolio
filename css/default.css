@@ -26,7 +26,6 @@ h1 {
     letter-spacing: 0.5em;
 }
 
-
 h2 {
     font-size: 1.2em;
 }
@@ -54,7 +53,6 @@ li.item {
     cursor: pointer;
 }
 
-
 .detail {
     display: none;
     margin-left: 20px;
@@ -65,3 +63,6 @@ li.item {
     display: block;
 }
 
+i {
+    margin: 1px;
+}
